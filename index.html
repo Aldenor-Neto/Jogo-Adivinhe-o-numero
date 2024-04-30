@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe o Número</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Adivinhe o número!</h2>
+    <p>O número secreto esta entre 1 e 50</p>
+    <div>
+        <p><input type="radio" id="baixo" name="nivel" value="15">Baixo (15 tentativas)</p>
+        <p><input type="radio" id="medio" name="nivel" value="10">Médio(10 tentativas)</p>
+        <p><input type="radio" id="alto" name="nivel" value="5">Alto (5 tentativas)</p>
+    </div>
+    <input type="number" id="numero" placeholder="Qual o palpite" min="1" max="50">
+    <button class="iniciar">Iniciar Jogo</button>
+    <button class="enviar" disabled>Enviar palpite</button>
+    <p>Tentativas: <span id="tentativas"></span></p>
+    <div id="mensagens"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #fff;
+}
+
+p {
+    color: #ccc;
+}
+
+input[type="radio"],
+input[type="number"],
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="radio"]:hover,
+input[type="number"]:hover,
+button:hover {
+    background-color: #444;
+}
+
+input[type="radio"]:checked {
+    background-color: #555;
+}
+
+input[type="radio"]:checked:hover {
+    background-color: #666;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#mensagens {
+    margin-top: 20px;
+}
+
+#tentativas {
+    font-weight: bold;
+}
